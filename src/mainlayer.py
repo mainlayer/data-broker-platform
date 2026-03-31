@@ -2,7 +2,7 @@
 Mainlayer API client.
 
 Handles resource creation, payment charging, and entitlement verification
-against the Mainlayer payment-infrastructure API (https://api.mainlayer.xyz).
+against the Mainlayer payment-infrastructure API (https://api.mainlayer.fr).
 """
 from __future__ import annotations
 
@@ -20,7 +20,7 @@ from src.models import (
 
 logger = logging.getLogger(__name__)
 
-_BASE_URL = os.getenv("MAINLAYER_BASE_URL", "https://api.mainlayer.xyz")
+_BASE_URL = os.getenv("MAINLAYER_BASE_URL", "https://api.mainlayer.fr")
 _TIMEOUT = float(os.getenv("MAINLAYER_TIMEOUT_SECONDS", "10"))
 
 

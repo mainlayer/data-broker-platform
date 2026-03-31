@@ -21,7 +21,7 @@ The Data Broker Platform is an open monetization layer that sits between data pu
 ### Prerequisites
 
 - Python 3.11+
-- A [Mainlayer](https://app.mainlayer.xyz) account and API key
+- A [Mainlayer](https://app.mainlayer.fr) account and API key
 
 ### 1. Clone and install
 
@@ -201,7 +201,7 @@ Publishers earn revenue every time an agent queries their dataset.
 
 - You set the price — anywhere from fractions of a cent to dollars per query.
 - Mainlayer processes payments and settles to your account on a rolling basis.
-- No platform fee is deducted by this open-source layer; Mainlayer's standard processing fee applies (see [Mainlayer pricing](https://mainlayer.xyz/pricing)).
+- No platform fee is deducted by this open-source layer; Mainlayer's standard processing fee applies (see [Mainlayer pricing](https://mainlayer.fr/pricing)).
 - Track earnings via the `total_revenue_usd` field on each dataset or in the Mainlayer dashboard.
 
 **Example earnings:**
@@ -221,7 +221,7 @@ All configuration is via environment variables (see `.env.example`):
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `MAINLAYER_API_KEY` | — | Your Mainlayer publisher API key |
-| `MAINLAYER_BASE_URL` | `https://api.mainlayer.xyz` | Mainlayer API endpoint |
+| `MAINLAYER_BASE_URL` | `https://api.mainlayer.fr` | Mainlayer API endpoint |
 | `PORT` | `8000` | Server port |
 | `STORAGE_PATH` | _(empty)_ | JSON file for local persistence |
 | `LOG_LEVEL` | `INFO` | Logging verbosity |
@@ -262,5 +262,5 @@ data-broker-platform/
 
 ## Support
 
-- Mainlayer documentation: [https://docs.mainlayer.xyz](https://docs.mainlayer.xyz)
+- Mainlayer documentation: [https://docs.mainlayer.fr](https://docs.mainlayer.fr)
 - Issues: open a GitHub issue on this repository

@@ -12,7 +12,7 @@ services:
       - "${PORT:-8000}:8000"
     environment:
       MAINLAYER_API_KEY: ${MAINLAYER_API_KEY:-}
-      MAINLAYER_BASE_URL: ${MAINLAYER_BASE_URL:-https://api.mainlayer.xyz}
+      MAINLAYER_BASE_URL: ${MAINLAYER_BASE_URL:-https://api.mainlayer.fr}
       MAINLAYER_TIMEOUT_SECONDS: ${MAINLAYER_TIMEOUT_SECONDS:-10}
       HOST: 0.0.0.0
       PORT: 8000
